@@ -33,12 +33,12 @@
   font-size: 0;
 }
 
-.menu-option::after {
-  content: ".";
-}
-
 .menu-option {
   color: $grey-light;
   text-decoration: none;
   margin: 0 12px;
+
+  &::after {
+    content: ".";
+  }
 }

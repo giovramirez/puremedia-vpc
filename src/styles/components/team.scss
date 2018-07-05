@@ -1,0 +1,19 @@
+.team {
+  display: flex;
+  flex-flow: row wrap;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.member {
+  position: relative;
+  flex: 1 1 500px;
+  display: flex;
+  flex-flow: column wrap;
+  overflow: hidden;
+}
+
+.avatar-img {
+  border-radius: 100%;
+}

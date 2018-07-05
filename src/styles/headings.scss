@@ -7,12 +7,13 @@
   margin-bottom: 40px;
   text-align: center;
   position: relative;
+  padding-top: 110px;
 
   &::before {
     position: absolute;
     left: 0;
     right: 0;
-    top: 1.7em;
+    top: 9.3em;
     content: " ";
     border: solid $orange-light;
     border-width: 3px 0 0;
@@ -31,10 +32,10 @@
 }
 
 .h2 {
-  font: 16px/24px "raleway-heavy", sans-serif;
+  font: 16px/36px "raleway-heavy", sans-serif;
   color: #252525;
-  font-weight: bold;
   margin: 18px 0 15px;
+  text-align: center;
   
   &::after {
     content: ".";
