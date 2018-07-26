@@ -1,0 +1,18 @@
+@media screen and (min-width: $lg-screen){
+  .team {
+    text-align: left;
+  }
+
+  .member-header {
+    justify-content: left;
+  }
+
+  .member-avatar {
+    height: 80px;
+    width: 80px;
+  }
+
+  .member-social-media {
+    justify-content: left;
+  }
+}

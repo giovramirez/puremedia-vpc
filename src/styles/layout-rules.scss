@@ -20,8 +20,16 @@
 
 .l-values {
   background-color: white;
+  padding-bottom: 50px;
 }
 
 .l-team {
+  padding-left: 30px;
+  padding-right: 30px;
   background-color: $grey-lighter;
+}
+
+.l-ramblings {
+  background: #a43b0a $img-journal no-repeat bottom center fixed;
+  background-size: cover;
 }

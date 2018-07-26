@@ -4,6 +4,7 @@
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
 }
 
 .member {
@@ -12,8 +13,54 @@
   display: flex;
   flex-flow: column wrap;
   overflow: hidden;
+  margin-top: 20px;
+}
+
+.member-header {
+  display: flex;
+  justify-content: center;
+}
+
+.member-avatar {
+  height: 60px;
+  width: 60px;
 }
 
 .avatar-img {
+  height: 100%;
   border-radius: 100%;
+}
+
+.member-profile {
+  padding-left: 15px;
+  text-align: left;
+}
+
+.member-name {
+  margin-bottom: 8px;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.member-rol {
+  margin-top: 0;
+  font-size: 13px;
+  line-height: 18px;
+  color: #f26522;
+}
+
+.member-description {
+  margin-bottom: 0;
+}
+
+.member-social-media {
+  font-size: 24px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+
+  li {
+    margin-right: 15px; 
+  }
 }

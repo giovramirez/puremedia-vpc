@@ -1,9 +1,10 @@
 @media screen and (min-width: $lg-screen){
-    .work {      
-    }
+  .work {
+    flex-basis: 300px;
+  }
 
-    .work-img {
-        max-width: 100%;
-        height: auto;
-    }
+  .work-img {
+    max-width: 100%;
+      height: auto;
+  }
 }
