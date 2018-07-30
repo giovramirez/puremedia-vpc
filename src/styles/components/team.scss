@@ -9,7 +9,7 @@
 
 .member {
   position: relative;
-  flex: 1 1 500px;
+  flex: 1 1 100%;
   display: flex;
   flex-flow: column wrap;
   overflow: hidden;
@@ -46,7 +46,7 @@
   margin-top: 0;
   font-size: 13px;
   line-height: 18px;
-  color: #f26522;
+  color: $orange-light;
 }
 
 .member-description {

@@ -13,15 +13,22 @@
 // Components mobile first
 @import "./styles/components/menu.scss";
 @import "./styles/components/hero.scss";
+@import "./styles/components/work.scss";
 @import "./styles/components/services.scss";
 @import "./styles/components/values.scss";
-@import "./styles/components/work.scss";
 @import "./styles/components/team.scss";
+@import "./styles/components/ramblings.scss";
+@import "./styles/components/form.scss";
+@import "./styles/components/footer.scss";
 
 // Media rules
 @import "./styles/layout-rules-media.scss";
 @import "./styles/headings.scss";
 @import "./styles/components/menu-media.scss";
 @import "./styles/components/hero-media.scss";
+@import "./styles/components/values-media.scss";
 @import "./styles/components/work-media.scss";
 @import "./styles/components/team-media.scss";
+@import "./styles/components/ramblings-media.scss";
+@import "./styles/components/form-media.scss";
+@import "./styles/components/footer-media.scss";

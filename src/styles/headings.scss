@@ -1,9 +1,8 @@
-.h1 {
+%h1 {
   font: 15px/24px "raleway-heavy", sans-serif;
   margin-top: 0;
   text-transform: uppercase;
   letter-spacing: 2.5px;
-  color: $grey-title;
   margin-bottom: 40px;
   text-align: center;
   position: relative;
@@ -31,6 +30,16 @@
   }
 }
 
+.h1-grey {
+  @extend %h1;
+  color: $grey-title;
+}
+
+.h1-white {
+  @extend %h1;
+  color: white;
+}
+
 .h2 {
   font: 16px/36px "raleway-heavy", sans-serif;
   color: #252525;
@@ -40,4 +49,12 @@
   &::after {
     content: ".";
   }
+}
+
+.h3 {
+  font: 13px/24px "raleway-bold", sans-serif;
+  margin-bottom: 0;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }

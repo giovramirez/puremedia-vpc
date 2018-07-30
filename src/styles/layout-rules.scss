@@ -26,10 +26,23 @@
 .l-team {
   padding-left: 30px;
   padding-right: 30px;
+  padding-bottom: 160px;
   background-color: $grey-lighter;
 }
 
 .l-ramblings {
   background: #a43b0a $img-journal no-repeat bottom center fixed;
   background-size: cover;
+  padding-bottom: 160px;
+}
+
+.l-form {
+  background-color: $grey-darker;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-bottom: 160px;
+}
+
+.l-footer {
+  padding: 60px 35px;
 }

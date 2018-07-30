@@ -1,0 +1,11 @@
+@media screen and (min-width: $lg-screen) {
+  .rambling {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .journal {
+    margin: initial;
+    flex-basis: 50%;
+  }
+}

@@ -1,0 +1,17 @@
+@media screen and (min-width: $lg-screen) {
+  .form-section {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .form-field {
+    margin-left: 15px;
+    margin-right: 15px;
+    flex-basis: 299px;
+  }
+
+  .button {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
